@@ -22,7 +22,7 @@ export const Home = () => {
 
 <img src={Bigmac} alt='bigmac'/>
 
-   <h1>BATEU AQUELA #FOME DE MÉQUI?</h1>
+   <h1>BATEU AQUELA <span>#FOME</span> DE <span>MÉQUI</span>?</h1>
    </div>
 
 
