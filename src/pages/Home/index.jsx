@@ -1,10 +1,11 @@
-import React from 'react'
-import { Header } from '../../components/Header'
-import { Main } from './styles'
+import React from 'react';
+import { Header } from '../../components/Header';
+import { Main } from './styles';
 import Bigmac from '../../assets/bigmac.png'
 import Prettymac from '../../assets/prettymac.png'
 import Sorvete from '../../assets/sorvete.png'
 import Batata from '../../assets/batata.png'
+import { Promocao } from '../../components/Promocao';
 
 
 export const Home = () => {
@@ -34,16 +35,12 @@ export const Home = () => {
    </div>
    </section>
 
-
-
-
-
-
-
    <section className='segundaria'>
    <h1>ola eu sou a main</h1>
 </section>
     </Main>
+
+    <Promocao />
     
     </>
   )
