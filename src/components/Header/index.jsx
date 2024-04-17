@@ -1,5 +1,5 @@
   import App from '../../assets/app.png'
-  import Logo from '../../assets/logo(1).png'
+  import Logo from '../../assets/logo.png'
 
 
 
