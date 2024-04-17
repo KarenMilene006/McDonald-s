@@ -6,18 +6,17 @@ import { Main } from './styles'
 export const Home = () => {
   return (
     <>
-    <Header/>
+      <Header/>
+      <Main>
+  <section className='principal'>
+    <h1>ola eu sou a main</h1>
+    </section>
 
-    <Main>
-<section className='principal'>
-   <h1>ola eu sou a main</h1>
-   </section>
-
-   <section className='segundaria'>
-   <h1>ola eu sou a main</h1>
-</section>
-    </Main>
-    
-    </>
-  )
-}
+    <section className='segundaria'>
+    <h1>ola eu sou a main</h1>
+  </section>
+      </Main>
+      
+      </>
+    )
+  }
