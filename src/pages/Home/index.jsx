@@ -2,7 +2,7 @@ import React from 'react'
 import { Header } from '../../components/Header'
 import { Main } from './styles'
 import Bigmac from '../../assets/bigmac.png'
-import Prettymac from '../../assets/bigmac(1).png'
+import Prettymac from '../../assets/prettymac.png'
 import Sorvete from '../../assets/sorvete.png'
 import Batata from '../../assets/batata.png'
 
@@ -28,9 +28,9 @@ export const Home = () => {
 
 
    <div className='fastfoodimg'>
-    <img src={Prettymac} alt='bigmac'/>
-    <img src={Sorvete} alt='bigmac'/>
-    <img src={Batata} alt='bigmac'/>
+    <img src={Prettymac} alt='prettymac'/>
+    <img src={Sorvete} alt='sorvete'/>
+    <img src={Batata} alt='batata'/>
    </div>
    </section>
 

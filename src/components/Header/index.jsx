@@ -9,25 +9,24 @@
   export const Header =() => {
     return (
       <>   
-      <ContainerHeader>
+        <ContainerHeader>
+          <nav>
+          <a href='#'><img src={Logo} alt="logo"/></a>
 
-        <nav>
-        <a href='#'><img src={Logo} alt="logo"/></a>
+    <div className='app'>
 
-  <div className='app'>
-
-        <div className='baixeApp'>
-            <a href="#">Baixe o App</a>
-            <MdPhoneIphone />
-        </div>
-          
-          <button>
-              <a href="#">Peça seu Méqui</a>
-              <img src={App} alt="app"/>
-          </button>
-  </div>
-          </nav>
-      </ContainerHeader>
+          <div className='baixeApp'>
+              <MdPhoneIphone />
+              <a href="#">Baixe o App</a>
+          </div>
+            
+            <button>
+                <a href="#">Peça seu Méqui</a>
+                <img src={App} alt="app"/>
+            </button>
+    </div>
+            </nav>
+        </ContainerHeader>
       </>
     )
   }
